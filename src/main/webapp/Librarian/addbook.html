@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Add Book</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="Body">
+    <div class="container">
+    <header>
+        <h1>Add Books to the Library</h1>
+    </header>
+
+    <main>
+       <form class="addbookdiv" action="../addbook" method="post">
+             <div>
+            <label for="bookname">Book Name</label>
+            <input type="text" id="bookname" name="bookname" placeholder="Book Name">
+        </div>
+        <div>
+            <label for="author">Author</label>
+            <input type="text" id="author" name="author" placeholder="Author">
+        </div>
+        <div>
+            <label for="category">Category</label>
+            <input type="text" id="category" name="category" placeholder="Category">
+        </div>
+        <div>
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" placeholder="Quantity">
+        </div>
+        <button type="submit" class="addbutton" id="saveBtn">Save</button>
+        <button type="reset" class="addbutton">Reset</button>
+        <a href="dashboard.html">
+            <button type="button" class="addbutton" id="add-btn">Back</button>
+        </a>
+        </form>
+        </div>
+    </main>
+     <script src="../js/addbook.js"></script>
+</body>
+</html>

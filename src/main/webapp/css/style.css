@@ -1,0 +1,375 @@
+/* Remove default spacing */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Whole page */
+.Body{
+    background-color:#dbeafe;
+    font-family:Arial, Helvetica, sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+/* Login ,addbook, editbook, return Box */
+.container{
+
+    background-color:white;
+
+    width:350px;
+    
+    max-width:90%;
+
+    padding:30px;
+
+    border:2px solid #333;
+
+    border-radius:10px;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,0.2);
+
+    text-align:center;
+}
+
+/* Heading */
+.container h1{
+    margin-bottom:10px;
+}
+
+.container h2{
+    margin-bottom:20px;
+    color:#555;
+}
+
+/* Labels */
+label{
+    font-weight:bold;
+}
+
+/* Inputs */
+input{
+
+    width:100%;
+
+    padding:10px;
+
+    margin-top:5px;
+
+    border:1px solid gray;
+
+    border-radius:5px;
+
+    box-sizing:border-box;
+}
+
+/* Buttons */
+button{
+
+    padding:10px 20px;
+
+    margin-top:15px;
+
+    margin-right:10px;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+    background-color:#2563eb;
+
+    color:white;
+}
+
+/* Button Hover */
+button:hover{
+
+    background-color:#1d4ed8;
+
+}
+
+
+/*Dashboard css style*/
+
+.Dashboard{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#dbeafe;
+}
+
+/* Header */
+.Dashboard header{
+    background-color:#2563eb;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Main */
+.Dashboardmain{
+    width:80%;
+    margin:40px auto;
+}
+
+/* Welcome Text */
+.Dashboardmain h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+/* Dashboard Layout */
+.dashboard{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+/* Remove underline */
+.dashboard a{
+    text-decoration:none;
+}
+
+/* Buttons */
+.dashboard button{
+
+    width:100%;
+    padding:25px;
+
+    font-size:18px;
+
+    color: black;
+
+    background-color:white;
+
+    border:2px solid #2563eb;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+/* Hover Effect */
+.dashboard button:hover{
+
+    background-color:#2563eb;
+    color:white;
+}
+
+
+
+
+
+/* View Books Page */
+
+.view{
+
+    background-color:#dbeafe;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+}
+
+/* White Box */
+
+.table-container{
+
+    background:white;
+
+    width:850px;
+
+    max-width:95%;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,0.2);
+
+}
+
+/* Heading */
+
+.table-container h1{
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+}
+
+/* Table */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+/* Header */
+
+th{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px;
+
+}
+
+/* Cells */
+
+td{
+
+    padding:12px;
+
+    text-align:center;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+/* Alternate Row Color */
+
+tbody tr:nth-child(even){
+
+    background:#f5f5f5;
+
+}
+
+/* Hover Effect */
+
+tbody tr:hover{
+
+    background:#dbeafe;
+
+}
+
+/* Back Button */
+
+.back-btn{
+
+    margin-top:20px;
+
+    padding:10px 20px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+/* Hover */
+
+.back-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+.searchbook{
+
+    width:350px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.searchbook input{
+
+    width:100%;
+
+    padding:10px;
+
+    border-radius:5px;
+
+}
+
+.searchbook button{
+
+    padding:10px;
+
+}
+
+.book-table{
+
+    width:100%;
+
+    margin-top:20px;
+
+    border-collapse:collapse;
+
+}
+
+.book-table th{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px;
+
+}
+
+.book-table td{
+
+    padding:12px;
+
+    border:1px solid #ddd;
+
+    text-align:center;
+
+}
+
+.book-table tr:nth-child(even){
+
+    background:#f4f4f4;
+
+}
+
+.table-back{
+
+    margin-top:20px;
+
+    text-align:right;
+
+}
+
+h2{
+
+    text-align:center;
+
+    margin-top:30px;
+
+}

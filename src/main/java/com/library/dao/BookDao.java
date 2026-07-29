@@ -14,7 +14,7 @@ public class BookDao implements BookDaoInterface{
         try{
           Connection con=DBConnection.getConnection();  
 
-          String query = "INSERT INTO BOOKS (bookname,author,category,quantity,bookstatus) VALUES (?, ?, ?, ?,?)";
+          String query = "INSERT INTO Books (bookname,author,category,quantity,bookstatus) VALUES (?, ?, ?, ?,?)";
 
           PreparedStatement pst =con.prepareStatement(query);
 

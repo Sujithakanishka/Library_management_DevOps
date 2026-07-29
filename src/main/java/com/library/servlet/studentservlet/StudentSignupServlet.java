@@ -47,9 +47,13 @@ public class StudentSignupServlet  extends HttpServlet {
         boolean status = dao.signup(student);
         
         if(status)
-        {
-            response.sendRedirect(request.getContextPath() +"/Student/Dashboard.html");
-        }
+	{
+	    HttpSession session = request.getSession();
+
+	    session.setAttribute("studentid", student.getStudentid());
+
+	    response.sendRedirect(request.getContextPath() + "/Student/Dashboard.html");
+	}
         else
         {
             response.getWriter().println("Can't Signup");

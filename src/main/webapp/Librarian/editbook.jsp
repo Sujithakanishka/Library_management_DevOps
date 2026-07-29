@@ -1,4 +1,6 @@
-<%@ page language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
 <%@ page import="com.library.model.Book" %>
 
 <%
@@ -10,7 +12,7 @@ Book book = (Book) request.getAttribute("book");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>✏️ Edit book</title>
+    <title>📚 Edit book</title>
    <link rel="stylesheet"
       href="${pageContext.request.contextPath}/css/style.css">
 </head>

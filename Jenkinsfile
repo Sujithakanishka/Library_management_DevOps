@@ -48,7 +48,9 @@ pipeline {
 	    steps {
 	        sh '''
 	        cd /home/ubuntu/Library_management_DevOps
+
 	        docker compose pull
+	        docker compose down
 	        docker compose up -d
 	        '''
 	    }

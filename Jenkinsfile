@@ -44,9 +44,10 @@ pipeline {
                 sh 'docker push $DOCKER_IMAGE'
             }
         }
-       stage('Deploy') {
+        stage('Deploy') {
 	    steps {
 	        sh '''
+	        cd /home/ubuntu/Library_management_DevOps
 	        docker compose pull
 	        docker compose up -d
 	        '''

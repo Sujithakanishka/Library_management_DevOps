@@ -44,5 +44,13 @@ pipeline {
                 sh 'docker push $DOCKER_IMAGE'
             }
         }
+       stage('Deploy') {
+	    steps {
+	        sh '''
+	        docker compose pull
+	        docker compose up -d
+	        '''
+	    }
+	}
     }
 }

@@ -9,7 +9,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>📖 View Books</title>
+<title>📖 View Students</title>
 
 <link rel="stylesheet"
       href="${pageContext.request.contextPath}/css/style.css">
@@ -20,7 +20,7 @@
 
 <div class="table-container">
 
-    <h1>Library Books</h1>
+    <h1>Students List</h1>
 
     <table>
 
@@ -65,7 +65,7 @@
 
         <tr>
 
-            <td colspan="3">No Books Available</td>
+            <td colspan="3">No Students Available</td>
 
         </tr>
 

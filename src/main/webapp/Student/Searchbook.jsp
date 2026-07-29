@@ -12,7 +12,7 @@ String message = (String)request.getAttribute("message");
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Search Book</title>
+<title>🔎 Search Book</title>
 
 <link rel="stylesheet"
 href="${pageContext.request.contextPath}/css/style.css">

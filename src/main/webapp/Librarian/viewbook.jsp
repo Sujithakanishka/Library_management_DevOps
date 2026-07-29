@@ -10,7 +10,7 @@ pageEncoding="UTF-8"%>
 
 <meta charset="UTF-8">
 
-<title>View Books</title>
+<title>📖 View Books</title>
 
 <link rel="stylesheet"
 href="${pageContext.request.contextPath}/css/style.css">

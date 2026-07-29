@@ -16,7 +16,7 @@ services:
       - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
 
   app:
-    image:  kanishkahub/library-management:v1
+    image: kanishkahub/library-management:v1
     container_name: library-app
     restart: unless-stopped
 
